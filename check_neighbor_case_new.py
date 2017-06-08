@@ -43,9 +43,11 @@ def cmdArgumentParser():
   parser.add_argument('-v', '--verbose', action="store_true", help='Verbose mode will print out more information')
   parser.add_argument("--dryrun", action="store_true", help='dryrun')
 ### 
-  parser.add_argument('-e', '--end_num', type=str, help='Ending Case Number', default = "YSC1790190000")
-  parser.add_argument('-r', '--range', type=int, help='Search Range', default = 50000)
-  parser.add_argument('-i', '--interval', type=int, help='Search Interval', default = 2500)
+  parser.add_argument('-e', '--end_num', type=str, help='Ending Case Number', default = "YSC1800000000")
+# parser.add_argument('-r', '--range', type=int, help='Search Range', default = 20000000)
+  parser.add_argument('-r', '--range', type=int, help='Search Range', default = 100000)
+  parser.add_argument('-i', '--interval', type=int, help='Search Interval', default = 100000)
+  parser.add_argument('-s', '--skip', type=int, help='Skip Interval (Sample)', default = 500)
 ###
   return parser.parse_args()
 
@@ -153,10 +155,12 @@ def main():
       overall_start = case_numberic - args.range
       overall_end = case_numberic
       interval = args.interval
+      skip = args.skip
   else:
       overall_start = case_numberic - 500
       overall_end = case_numberic
       interval = 100
+      skip = 25
 
   for start in range(overall_start, overall_end, interval):
     final_result = []
@@ -165,7 +169,7 @@ def main():
     rmnder = interval % CPU_CORES
     end = start + interval
 
-    if interval > 20:
+    if False:
       batch_result = get_batch_pair(interval,start,end)
 
       for i in range(len(batch_result)):
@@ -178,7 +182,7 @@ def main():
       final_result = ns.df
 
     else:
-      for i in range(start,end):
+      for i in range(start,end,skip):
         final_result.append(get_result(i,prefix,args.verbose))
 
     ## parse
@@ -186,19 +190,19 @@ def main():
     recv_case_num = 0
     for result_dict in final_result:              ## dict:{case_num: {type, status, recv} 
       for key in result_dict.values(): 
-          if key['Status'] == "Card Was Mailed To Me":
+          if key['Status'][:15] == "Card Was Mailed":
               recv_case_num += 1
           total_case_num += 1
 
     if total_case_num == 0:
         continue
-    print "start_num: %d, recv_rate: %f" % (start, float(recv_case_num / total_case_num))
+    print "start_num: %d, recv_rate: %.2f%%" % (start, 100.0 * recv_case_num / total_case_num)
 
     json_type = json.dumps(final_result,indent=4)
     now = datetime.datetime.now()
-    with open('data-%s.yml'%now.strftime("%Y-%m-%d-%H-%M-%S"), 'w') as outfile:
+    with open('result/data-%s.yml'%now.strftime("%Y-%m-%d-%H-%M-%S"), 'w') as outfile:
       yaml.dump(yaml.load(json_type), outfile, allow_unicode=True)
-    print yaml.dump(yaml.load(json_type), allow_unicode=True)
+  # print yaml.dump(yaml.load(json_type), allow_unicode=True)
 
 if __name__ == "__main__":
   main()
