@@ -36,60 +36,66 @@ import certifi
 CPU_CORES = multiprocessing.cpu_count()
 
 def cmdArgumentParser():
-  parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser()
 ### 
-  parser.add_argument('-b', '--batch', type=int, help='Batch Number')
-  parser.add_argument('-c', '--case_num', type=str, help='Case Number')
-  parser.add_argument('-v', '--verbose', action="store_true", help='Verbose mode will print out more information')
-  parser.add_argument("--dryrun", action="store_true", help='dryrun')
+#    parser.add_argument('-b', '--batch', type=int, help='Batch Number')
+#    parser.add_argument('-c', '--case_num', type=str, help='Case Number')
+    parser.add_argument('-v', '--verbose', action="store_true", help='Verbose mode will print out more information')
+    parser.add_argument("--dryrun", action="store_true", help='dryrun')
 ### 
-  parser.add_argument('-e', '--end_num', type=str, help='Ending Case Number', default = "YSC1800000000")
-# parser.add_argument('-r', '--range', type=int, help='Search Range', default = 20000000)
-  parser.add_argument('-r', '--range', type=int, help='Search Range', default = 100000)
-  parser.add_argument('-i', '--interval', type=int, help='Search Interval', default = 100000)
-  parser.add_argument('-s', '--skip', type=int, help='Skip Interval (Sample)', default = 500)
+    parser.add_argument('-e', '--end_num', type=str, help='Ending Case Number', default = "YSC1790190000")
+    parser.add_argument('-r', '--range', type=int, help='Search Range', default = 30000)
+    parser.add_argument('-i', '--interval', type=int, help='Search Interval', default = 500)
+    parser.add_argument('-k', '--skip', type=int, help='Sample Interval', default = 1)
 ###
-  return parser.parse_args()
+    return parser.parse_args()
 
 def get_result(case_num,prefix,verbose):
-  info = {}
-  result=''
-  buf = cStringIO.StringIO()
-  url = 'https://egov.uscis.gov/casestatus/mycasestatus.do'
-  case_num = prefix + str(case_num)
-  c = pycurl.Curl()
-  c.setopt(c.URL, url)
-  c.setopt(c.POSTFIELDS, 'appReceiptNum=%s'%case_num)
-  c.setopt(c.WRITEFUNCTION, buf.write)
-  c.setopt(c.CAINFO, certifi.where())
-  c.perform()
+    retries = 0
+    while True:
+        info = {}
+        result=''
+        buf = cStringIO.StringIO()
+        url = 'https://egov.uscis.gov/casestatus/mycasestatus.do'
+        case_num = prefix + str(case_num)
+        c = pycurl.Curl()
+        c.setopt(c.URL, url)
+        c.setopt(c.POSTFIELDS, 'appReceiptNum=%s'%case_num)
+        c.setopt(c.WRITEFUNCTION, buf.write)
+        c.setopt(c.CAINFO, certifi.where())
+        c.perform()
 
-  soup = BeautifulSoup(buf.getvalue(),"html.parser")
-  mycase_txt = soup.findAll("div", { "class" : "rows text-center" })
+        soup = BeautifulSoup(buf.getvalue(),"html.parser")
+        mycase_txt = soup.findAll("div", { "class" : "rows text-center" })
 
-  for i in mycase_txt:
-    result=result+i.text
+        for i in mycase_txt:
+            result=result+i.text
 
-  result = result.split('\n')
-  buf.close()
-  try:
-    details = result[2].split(',')
-    recv_date = get_case_receive_date(details)
-    case_type = get_case_type(result[2])
-    info[case_num] = {}
-    info[case_num]['Type'] = case_type
-    info[case_num]['Status'] = result[1]
-    info[case_num]['Received'] = recv_date
+        result = result.split('\n')
+        buf.close()
+        try:
+            details = result[2].split(',')
+            recv_date = get_case_receive_date(details)
+            case_type = get_case_type(result[2])
+            info[case_num] = {}
+            info[case_num]['Status'] = result[1]
+            info[case_num]['Received'] = recv_date
 
-    if verbose:
-      print info
+            if verbose:
+                print info
 
-  except Exception as e:
-    print 'USCIS format is incorrect'
-    print result
-    sys.exit()
+        except Exception as e:      ## re-try
+            if retries < 100:
+                print "USCIS format is incorrect"
+                time.sleep(120) 
+                continue    
+            else:
+                print "retry too many times, exiting"
+                sys.exit()
 
-  return info
+        break
+
+    return info
 
 def get_batch_pair(interval,case_s,case_e):
   batch = {}
@@ -115,7 +121,7 @@ def query_website(ns,batch_result,prefix,lock,verbose):
   lock.acquire()
   ns.df = ns.df + local_result
   lock.release()
-  time.sleep(1)
+  time.sleep(.25)
 
 def get_case_type(line):
 
@@ -162,6 +168,8 @@ def main():
       interval = 100
       skip = 25
 
+  now = datetime.datetime.now()
+  result_file = open('data-%s-%s-%s.yml' % (str(overall_start), str(overall_end), now.strftime("%m-%d")), 'w') 
   for start in range(overall_start, overall_end, interval):
     final_result = []
     ns.df = final_result
@@ -182,27 +190,26 @@ def main():
       final_result = ns.df
 
     else:
-      for i in range(start,end,skip):
-        final_result.append(get_result(i,prefix,args.verbose))
+        for i in range(start,end,skip):
+            final_result.append(get_result(i,prefix,args.verbose))
 
     ## parse
     total_case_num = 0
     recv_case_num = 0
     for result_dict in final_result:              ## dict:{case_num: {type, status, recv} 
-      for key in result_dict.values(): 
-          if key['Status'][:15] == "Card Was Mailed":
-              recv_case_num += 1
-          total_case_num += 1
+        for key in result_dict.values(): 
+            if key['Status'][:15] == "Card Was Mailed":
+                recv_case_num += 1
+            total_case_num += 1
 
     if total_case_num == 0:
         continue
     print "start_num: %d, recv_rate: %.2f%%" % (start, 100.0 * recv_case_num / total_case_num)
+    result_file.write("start_num: %d, recv_rate: %.2f%%" % (start, 100.0 * recv_case_num / total_case_num))
 
     json_type = json.dumps(final_result,indent=4)
-    now = datetime.datetime.now()
-    with open('result/data-%s.yml'%now.strftime("%Y-%m-%d-%H-%M-%S"), 'w') as outfile:
-      yaml.dump(yaml.load(json_type), outfile, allow_unicode=True)
-  # print yaml.dump(yaml.load(json_type), allow_unicode=True)
+    with open('result/data-%s-%s-%s.yml' % (str(start), str(end), now.strftime("%m-%d")), 'w') as outfile:
+        yaml.dump(yaml.load(json_type), outfile, allow_unicode=True)
 
 if __name__ == "__main__":
-  main()
+    main()
