@@ -141,18 +141,22 @@ def get_case_receive_date(details):
   return recv_date
 
 def main():
-  args = cmdArgumentParser()
-  case_numberic = int(args.end_num[3:])
-  prefix = args.end_num[:3]
   lock = Lock()
   jobs = []
   mgr = Manager()
   ns = mgr.Namespace()
-
-###
-  overall_start = case_numberic - args.range
-  overall_end = case_numberic
-  interval = args.interval
+  
+  args = cmdArgumentParser()
+  case_numberic = int(args.end_num[3:])
+  prefix = args.end_num[:3]
+  if not args.dryrun:
+      overall_start = case_numberic - args.range
+      overall_end = case_numberic
+      interval = args.interval
+  else:
+      overall_start = case_numberic - 500
+      overall_end = case_numberic
+      interval = 100
 
   for start in range(overall_start, overall_end, interval):
     final_result = []
@@ -186,7 +190,9 @@ def main():
               recv_case_num += 1
           total_case_num += 1
 
-    print "total_case: %d, recv_case: %d" % (total_case_num, recv_case_num)
+    if total_case_num == 0:
+        continue
+    print "start_num: %d, recv_rate: %f" % (start, float(recv_case_num / total_case_num))
 
     json_type = json.dumps(final_result,indent=4)
     now = datetime.datetime.now()
