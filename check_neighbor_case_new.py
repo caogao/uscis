@@ -29,21 +29,16 @@ import certifi
 
 CPU_CORES = multiprocessing.cpu_count()
 RETRY_THRESHOLD1 = 3
-RETRY_THRESHOLD2 = 6
+RETRY_THRESHOLD2 = 5
 
 def cmdArgumentParser():
     parser = argparse.ArgumentParser()
-### 
-#    parser.add_argument('-b', '--batch', type=int, help='Batch Number')
-#    parser.add_argument('-c', '--case_num', type=str, help='Case Number')
-    parser.add_argument('-v', '--verbose', action="store_true", help='Verbose mode will print out more information')
-    parser.add_argument("--dryrun", action="store_true", help='dryrun')
-### 
     parser.add_argument('-e', '--end_num', type=str, help='Ending Case Number', default = "YSC1790190000")
     parser.add_argument('-r', '--range', type=int, help='Search Range', default = 20000)
     parser.add_argument('-i', '--interval', type=int, help='Search Interval', default = 500)
     parser.add_argument('-k', '--skip', type=int, help='Sample Interval', default = 1)
-###
+    parser.add_argument('-v', '--verbose', action="store_true", help='Verbose mode will print out more information')
+    parser.add_argument("--dryrun", action="store_true", help='dryrun')
     return parser.parse_args()
 
 def get_result(case_num,prefix,verbose):
@@ -70,15 +65,15 @@ def get_result(case_num,prefix,verbose):
                     return info
 
         if retries < RETRY_THRESHOLD1:
-            print "USCIS format is incorrect: retry after 15 secs"
+            print "Result has incorrect format: retry after 15 secs"
             time.sleep(15) 
             retries += 1
         elif retries < RETRY_THRESHOLD2:
-            print "USCIS format is incorrect: possible IP ban, retry after 300 secs"
-            time.sleep(300) 
+            print "Result has incorret format: possible IP ban, retry after 1.5 hr"
+            time.sleep(5400) 
             retries += 1
         else:
-            print "retried too many times, printing website content and exiting"
+            print "Retried too many times, printing website content and exiting"
             print soup
             sys.exit()
 
