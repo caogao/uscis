@@ -44,7 +44,7 @@ def cmdArgumentParser():
     parser.add_argument("--dryrun", action="store_true", help='dryrun')
 ### 
     parser.add_argument('-e', '--end_num', type=str, help='Ending Case Number', default = "YSC1790190000")
-    parser.add_argument('-r', '--range', type=int, help='Search Range', default = 30000)
+    parser.add_argument('-r', '--range', type=int, help='Search Range', default = 20000)
     parser.add_argument('-i', '--interval', type=int, help='Search Interval', default = 500)
     parser.add_argument('-k', '--skip', type=int, help='Sample Interval', default = 1)
 ###
@@ -58,6 +58,7 @@ def get_result(case_num,prefix,verbose):
         buf = cStringIO.StringIO()
         url = 'https://egov.uscis.gov/casestatus/mycasestatus.do'
         case_num = prefix + str(case_num)
+        print "case_num: ", case_num
         c = pycurl.Curl()
         c.setopt(c.URL, url)
         c.setopt(c.POSTFIELDS, 'appReceiptNum=%s'%case_num)
@@ -85,12 +86,14 @@ def get_result(case_num,prefix,verbose):
                 print info
 
         except Exception as e:      ## re-try
-            if retries < 100:
+            if retries < 2:
                 print "USCIS format is incorrect"
                 time.sleep(120) 
+                retries += 1
                 continue    
             else:
                 print "retry too many times, exiting"
+                print soup
                 sys.exit()
 
         break
@@ -121,7 +124,6 @@ def query_website(ns,batch_result,prefix,lock,verbose):
   lock.acquire()
   ns.df = ns.df + local_result
   lock.release()
-  time.sleep(.25)
 
 def get_case_type(line):
 
@@ -191,6 +193,7 @@ def main():
 
     else:
         for i in range(start,end,skip):
+            print "case_num: ", i
             final_result.append(get_result(i,prefix,args.verbose))
 
     ## parse
