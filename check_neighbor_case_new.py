@@ -160,8 +160,8 @@ def main():
 
         if total_case_num == 0:
             continue
-        print "start_num: %d, mailed_case_num: %d, mailed_rate: %.0f%%" % (start, mailed_case_num, 100.0 * mailed_case_num / total_case_num)
-        result_file.write("start_num: %d, mailed_rate: %.0f%%\n" % (start, 100.0 * mailed_case_num / total_case_num))
+        print "start_num: %d, mailed_case_num: %d, mailed_rate: %.1f%%" % (start, mailed_case_num, 100.0 * mailed_case_num / total_case_num)
+        result_file.write("start_num: %d, mailed_rate: %.1f%%\n" % (start, 100.0 * mailed_case_num / total_case_num))
 
         json_type = json.dumps(final_result,indent=4)
         with open('result/data-%s-%s-%s.yml' % (str(start), str(end), now.strftime("%m-%d")), 'w') as outfile:
