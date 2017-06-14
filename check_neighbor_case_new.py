@@ -16,7 +16,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import requests
-import sys
+import os, sys
 import argparse
 import json
 import yaml
@@ -28,14 +28,15 @@ from bs4 import BeautifulSoup
 import certifi
 
 CPU_CORES = multiprocessing.cpu_count()
+TIME_INTERVAL = 3600
 RETRY_THRESHOLD1 = 3
 RETRY_THRESHOLD2 = 5
 
 def cmdArgumentParser():
     parser = argparse.ArgumentParser()
     parser.add_argument('-e', '--end_num', type=str, help='Ending Case Number', default = "YSC1790190000")
-    parser.add_argument('-r', '--range', type=int, help='Search Range', default = 20000)
-    parser.add_argument('-i', '--interval', type=int, help='Search Interval', default = 500)
+    parser.add_argument('-r', '--range', type=int, help='Search Range', default = 30000)
+    parser.add_argument('-i', '--interval', type=int, help='Search Interval', default = 1000)
     parser.add_argument('-k', '--skip', type=int, help='Sample Interval', default = 1)
     parser.add_argument('-v', '--verbose', action="store_true", help='Verbose mode will print out more information')
     parser.add_argument("--dryrun", action="store_true", help='dryrun')
@@ -70,7 +71,9 @@ def get_result(case_num,prefix,verbose):
             retries += 1
         elif retries < RETRY_THRESHOLD2:
             print "Result has incorret format: possible IP ban, retry after 1.5 hr"
+            os.system("./disconnect_umich_vpn.sh")
             time.sleep(5400) 
+            os.system("./connect_umich_vpn.sh")
             retries += 1
         else:
             print "Retried too many times, printing website content and exiting"
@@ -119,10 +122,11 @@ def main():
         interval = 100
         skip = 25
 
-    now = datetime.datetime.now()
-    result_file = open('data-%s-%s-%s.log' % (str(overall_start), str(overall_end), now.strftime("%m-%d")), 'w', 0) 
+    date = datetime.datetime.now().strftime("%m-%d")
+    result_file = open('data-%s-%s-%s.log' % (str(overall_start), str(overall_end), date), 'w', 0) 
         # 0 is buffer size. This means the content will be flushed to file instantly. 
 
+    group = 0       ## group number
     for start in range(overall_start, overall_end, interval):
         end = start + interval
         final_result = []
@@ -152,20 +156,36 @@ def main():
         ## parse
         total_case_num = 0
         mailed_case_num = 0
+        produced_case_num = 0
         for result_dict in final_result:              ## dict:{case_num: {type, status, recv} 
             for key in result_dict.values(): 
                 if key['Status'][:15] == "Card Was Mailed":
                     mailed_case_num += 1
+                    produced_case_num += 1
+                elif key['Status'][:8] == "New Card":
+                    produced_case_num += 1
                 total_case_num += 1
 
+        ## output
         if total_case_num == 0:
             continue
-        print "start_num: %d, mailed_case_num: %d, mailed_rate: %.1f%%" % (start, mailed_case_num, 100.0 * mailed_case_num / total_case_num)
-        result_file.write("start_num: %d, mailed_rate: %.1f%%\n" % (start, 100.0 * mailed_case_num / total_case_num))
+        print "start_num: %d, mailed_case_num: %d, total_case_num: %d, mailed_rate: %.2f%%" % (start, mailed_case_num, total_case_num, 100.0 * mailed_case_num / total_case_num)
+        result_file.write("start_num: %d, produced_num: %d, mailed_num: %d\n" % (start, produced_case_num, mailed_case_num ))
 
         json_type = json.dumps(final_result,indent=4)
-        with open('result/data-%s-%s-%s.yml' % (str(start), str(end), now.strftime("%m-%d")), 'w') as outfile:
+        with open('result/data-%s-%s-%s.yml' % (str(start), str(end), date), 'w') as outfile:
             yaml.dump(yaml.load(json_type), outfile, allow_unicode=True)
 
+        ## sleep
+        group += 1
+        if not (group % 3):
+            os.system("./disconnect_umich_vpn.sh")
+            time.sleep(TIME_INTERVAL)
+            os.system("./connect_umich_vpn.sh")
+
 if __name__ == "__main__":
-    main()
+    os.system("./connect_umich_vpn.sh")
+    try:
+        main()
+    finally:
+        os.system("./disconnect_umich_vpn.sh")
