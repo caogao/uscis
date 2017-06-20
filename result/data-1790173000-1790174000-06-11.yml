@@ -1,0 +1,1010 @@
+- YSC1790173000: {Status: Card Was Mailed To Me}
+- YSC1790173001: {Status: New Card Is Being Produced}
+- YSC1790173002: {Status: New Card Is Being Produced}
+- YSC1790173003: {Status: Case Was Received}
+- YSC1790173004: {Status: Card Was Mailed To Me}
+- YSC1790173005: {Status: Case Was Received}
+- YSC1790173006: {Status: Case Was Received}
+- YSC1790173007: {Status: Card Was Mailed To Me}
+- YSC1790173008: {Status: New Card Is Being Produced}
+- YSC1790173009: {Status: Case Was Received}
+- YSC1790173010: {Status: Case Was Received}
+- YSC1790173011: {Status: Case Was Received}
+- YSC1790173012: {Status: Card Was Mailed To Me}
+- YSC1790173013: {Status: Case Was Received}
+- YSC1790173014: {Status: Case Was Received}
+- YSC1790173015: {Status: Case Was Received}
+- YSC1790173016: {Status: Case Was Received}
+- YSC1790173017: {Status: Case Was Received}
+- YSC1790173018: {Status: New Card Is Being Produced}
+- YSC1790173019: {Status: Case Was Received}
+- YSC1790173020: {Status: New Card Is Being Produced}
+- YSC1790173021: {Status: Case Was Received}
+- YSC1790173022: {Status: Case Was Received}
+- YSC1790173023: {Status: Case Was Received}
+- YSC1790173024: {Status: Case Was Received}
+- YSC1790173025: {Status: Case Was Received}
+- YSC1790173026: {Status: Case Was Received}
+- YSC1790173027: {Status: Case Was Received}
+- YSC1790173028: {Status: Case Was Received}
+- YSC1790173029: {Status: Case Was Received}
+- YSC1790173030: {Status: Notice Was Returned To USCIS Because The Post Office Could
+      Not Deliver It}
+- YSC1790173031: {Status: Case Was Received}
+- YSC1790173032: {Status: Case Was Received}
+- YSC1790173033: {Status: Case Was Received}
+- YSC1790173034: {Status: Case Was Received}
+- YSC1790173035: {Status: Case Was Received}
+- YSC1790173036: {Status: Case Was Received}
+- YSC1790173037: {Status: Case Was Received}
+- YSC1790173038: {Status: Case Was Received}
+- YSC1790173039: {Status: Case Was Received}
+- YSC1790173040: {Status: Case Was Received}
+- YSC1790173041: {Status: Case Was Received}
+- YSC1790173042: {Status: Case Was Received}
+- YSC1790173043: {Status: Case Was Received}
+- YSC1790173044: {Status: Case Was Received}
+- YSC1790173045: {Status: Case Was Received}
+- YSC1790173046: {Status: Case Was Received}
+- YSC1790173047: {Status: Case Was Received}
+- YSC1790173048: {Status: Name Was Updated}
+- YSC1790173049: {Status: Case Was Received}
+- YSC1790173050: {Status: Case Was Received}
+- YSC1790173051: {Status: Request for Initial Evidence Was Mailed}
+- YSC1790173052: {Status: Case Was Received}
+- YSC1790173053: {Status: Card Was Mailed To Me}
+- YSC1790173054: {Status: Case Was Received}
+- YSC1790173055: {Status: Card Was Mailed To Me}
+- YSC1790173056: {Status: Card Was Mailed To Me}
+- YSC1790173057: {Status: New Card Is Being Produced}
+- YSC1790173058: {Status: Card Was Mailed To Me}
+- YSC1790173059: {Status: Request for Initial Evidence Was Mailed}
+- YSC1790173060: {Status: Case Was Received}
+- YSC1790173061: {Status: Case Was Received}
+- YSC1790173062: {Status: Case Was Received}
+- YSC1790173063: {Status: New Card Is Being Produced}
+- YSC1790173064: {Status: Case Was Received}
+- YSC1790173065: {Status: Case Was Received}
+- YSC1790173066: {Status: Case Was Received}
+- YSC1790173067: {Status: Case Was Received}
+- YSC1790173068: {Status: Case Was Received}
+- YSC1790173069: {Status: Case Was Rejected Because I Did Not Sign My Form}
+- YSC1790173070: {Status: Case Rejected Because I Sent An Incorrect Fee}
+- YSC1790173071: {Status: Case Rejected Because I Sent An Incorrect Fee}
+- YSC1790173072: {Status: Case Rejected Because I Sent An Incorrect Fee}
+- YSC1790173073: {Status: Decision Notice Mailed}
+- YSC1790173074: {Status: Case Was Received}
+- YSC1790173075: {Status: Case Was Received}
+- YSC1790173076: {Status: Case Was Received}
+- YSC1790173077: {Status: Case Was Received}
+- YSC1790173078: {Status: Case Was Received}
+- YSC1790173079: {Status: Card Was Mailed To Me}
+- YSC1790173080: {Status: Card Was Mailed To Me}
+- YSC1790173081: {Status: Case Was Received}
+- YSC1790173082: {Status: New Card Is Being Produced}
+- YSC1790173083: {Status: Card Was Mailed To Me}
+- YSC1790173084: {Status: New Card Is Being Produced}
+- YSC1790173085: {Status: Case Was Received}
+- YSC1790173086: {Status: Case Was Received}
+- YSC1790173087: {Status: New Card Is Being Produced}
+- YSC1790173088: {Status: New Card Is Being Produced}
+- YSC1790173089: {Status: Case Was Received}
+- YSC1790173090: {Status: Case Was Received}
+- YSC1790173091: {Status: Card Was Mailed To Me}
+- YSC1790173092: {Status: Case Was Received}
+- YSC1790173093: {Status: Card Was Mailed To Me}
+- YSC1790173094: {Status: Case Was Received}
+- YSC1790173095: {Status: New Card Is Being Produced}
+- YSC1790173096: {Status: Case Was Received}
+- YSC1790173097: {Status: Case Was Received}
+- YSC1790173098: {Status: Case Was Received}
+- YSC1790173099: {Status: New Card Is Being Produced}
+- YSC1790173100: {Status: Case Was Received}
+- YSC1790173101: {Status: Case Was Received}
+- YSC1790173102: {Status: Case Was Received}
+- YSC1790173103: {Status: Case Was Received}
+- YSC1790173104: {Status: Case Was Received}
+- YSC1790173105: {Status: Case Was Received}
+- YSC1790173106: {Status: Case Was Received}
+- YSC1790173107: {Status: Case Was Received}
+- YSC1790173108: {Status: New Card Is Being Produced}
+- YSC1790173109: {Status: Case Was Received}
+- YSC1790173110: {Status: Card Was Mailed To Me}
+- YSC1790173111: {Status: Case Was Received}
+- YSC1790173112: {Status: Card Was Mailed To Me}
+- YSC1790173113: {Status: Case Was Received}
+- YSC1790173114: {Status: Card Was Mailed To Me}
+- YSC1790173115: {Status: New Card Is Being Produced}
+- YSC1790173116: {Status: Card Was Mailed To Me}
+- YSC1790173117: {Status: Case Was Received}
+- YSC1790173118: {Status: Card Was Mailed To Me}
+- YSC1790173119: {Status: Case Was Received}
+- YSC1790173120: {Status: Card Was Mailed To Me}
+- YSC1790173121: {Status: Card Was Mailed To Me}
+- YSC1790173122: {Status: Card Was Mailed To Me}
+- YSC1790173123: {Status: Case Was Received}
+- YSC1790173124: {Status: Case Was Received}
+- YSC1790173125: {Status: Case Was Received}
+- YSC1790173126: {Status: Case Was Received}
+- YSC1790173127: {Status: Case Was Received}
+- YSC1790173128: {Status: Card Was Mailed To Me}
+- YSC1790173129: {Status: Card Was Mailed To Me}
+- YSC1790173130: {Status: New Card Is Being Produced}
+- YSC1790173131: {Status: Card Was Mailed To Me}
+- YSC1790173132: {Status: Case Was Received}
+- YSC1790173133: {Status: Withdrawal Acknowledgement Notice Was Sent}
+- YSC1790173134: {Status: Request for Initial Evidence Was Mailed}
+- YSC1790173135: {Status: Card Was Mailed To Me}
+- YSC1790173136: {Status: New Card Is Being Produced}
+- YSC1790173137: {Status: Card Was Mailed To Me}
+- YSC1790173138: {Status: Card Was Mailed To Me}
+- YSC1790173139: {Status: Case Was Received}
+- YSC1790173140: {Status: Case Was Received}
+- YSC1790173141: {Status: Case Was Received}
+- YSC1790173142: {Status: Case Was Received}
+- YSC1790173143: {Status: Card Was Mailed To Me}
+- YSC1790173144: {Status: New Card Is Being Produced}
+- YSC1790173145: {Status: Case Was Received}
+- YSC1790173146: {Status: New Card Is Being Produced}
+- YSC1790173147: {Status: Card Was Mailed To Me}
+- YSC1790173148: {Status: Case Was Received}
+- YSC1790173149: {Status: Card Was Mailed To Me}
+- YSC1790173150: {Status: New Card Is Being Produced}
+- YSC1790173151: {Status: Case Was Received}
+- YSC1790173152: {Status: New Card Is Being Produced}
+- YSC1790173153: {Status: Case Was Received}
+- YSC1790173154: {Status: Case Was Received}
+- YSC1790173155: {Status: Name Was Updated}
+- YSC1790173156: {Status: New Card Is Being Produced}
+- YSC1790173157: {Status: Case Was Received}
+- YSC1790173158: {Status: Case Was Received}
+- YSC1790173159: {Status: Case Was Received}
+- YSC1790173160: {Status: Case Was Received}
+- YSC1790173161: {Status: Card Was Mailed To Me}
+- YSC1790173162: {Status: Case Was Received}
+- YSC1790173163: {Status: Case Was Received}
+- YSC1790173164: {Status: Case Was Received}
+- YSC1790173165: {Status: New Card Is Being Produced}
+- YSC1790173166: {Status: New Card Is Being Produced}
+- YSC1790173167: {Status: Card Was Mailed To Me}
+- YSC1790173168: {Status: New Card Is Being Produced}
+- YSC1790173169: {Status: New Card Is Being Produced}
+- YSC1790173170: {Status: New Card Is Being Produced}
+- YSC1790173171: {Status: Card Was Mailed To Me}
+- YSC1790173172: {Status: Case Was Received}
+- YSC1790173173: {Status: Case Was Rejected Because I Did Not Sign My Form}
+- YSC1790173174: {Status: Card Was Mailed To Me}
+- YSC1790173175: {Status: Card Was Mailed To Me}
+- YSC1790173176: {Status: Case Was Received}
+- YSC1790173177: {Status: New Card Is Being Produced}
+- YSC1790173178: {Status: Case Rejected For Form Not Signed And Incorrect Form Version}
+- YSC1790173179: {Status: Case Was Received}
+- YSC1790173180: {Status: Case Was Received}
+- YSC1790173181: {Status: Case Was Received}
+- YSC1790173182: {Status: New Card Is Being Produced}
+- YSC1790173183: {Status: New Card Is Being Produced}
+- YSC1790173184: {Status: Case Was Received}
+- YSC1790173185: {Status: Case Was Received}
+- YSC1790173186: {Status: New Card Is Being Produced}
+- YSC1790173187: {Status: Case Was Received}
+- YSC1790173188: {Status: Request for Initial Evidence Was Mailed}
+- YSC1790173189: {Status: Case Was Received}
+- YSC1790173190: {Status: New Card Is Being Produced}
+- YSC1790173191: {Status: Correspondence Was Received And USCIS Is Reviewing It}
+- YSC1790173192: {Status: Case Was Received}
+- YSC1790173193: {Status: Case Was Received}
+- YSC1790173194: {Status: Case Was Received}
+- YSC1790173195: {Status: Card Was Mailed To Me}
+- YSC1790173196: {Status: Case Rejected Because I Sent An Incorrect Fee}
+- YSC1790173197: {Status: Case Rejected Because I Sent An Incorrect Fee}
+- YSC1790173198: {Status: Case Rejected Because I Sent An Incorrect Fee}
+- YSC1790173199: {Status: Card Was Mailed To Me}
+- YSC1790173200: {Status: Card Was Mailed To Me}
+- YSC1790173201: {Status: New Card Is Being Produced}
+- YSC1790173202: {Status: Case Was Received}
+- YSC1790173203: {Status: New Card Is Being Produced}
+- YSC1790173204: {Status: Card Was Mailed To Me}
+- YSC1790173205: {Status: Case Was Received}
+- YSC1790173206: {Status: Card Was Mailed To Me}
+- YSC1790173207: {Status: New Card Is Being Produced}
+- YSC1790173208: {Status: Case Rejected Because I Sent An Incorrect Fee}
+- YSC1790173209: {Status: Case Rejected Because I Sent An Incorrect Fee}
+- YSC1790173210: {Status: Card Was Mailed To Me}
+- YSC1790173211: {Status: Request for Initial Evidence Was Mailed}
+- YSC1790173212: {Status: Card Was Mailed To Me}
+- YSC1790173213: {Status: Card Was Mailed To Me}
+- YSC1790173214: {Status: Card Was Mailed To Me}
+- YSC1790173215: {Status: Card Was Mailed To Me}
+- YSC1790173216: {Status: Case Was Received}
+- YSC1790173217: {Status: Case Was Received}
+- YSC1790173218: {Status: Card Was Mailed To Me}
+- YSC1790173219: {Status: Card Was Mailed To Me}
+- YSC1790173220: {Status: Card Was Mailed To Me}
+- YSC1790173221: {Status: Card Was Mailed To Me}
+- YSC1790173222: {Status: Case Was Received}
+- YSC1790173223: {Status: Card Was Mailed To Me}
+- YSC1790173224: {Status: Card Was Mailed To Me}
+- YSC1790173225: {Status: Card Was Mailed To Me}
+- YSC1790173226: {Status: Card Was Mailed To Me}
+- YSC1790173227: {Status: Card Was Mailed To Me}
+- YSC1790173228: {Status: Card Was Mailed To Me}
+- YSC1790173229: {Status: Card Was Mailed To Me}
+- YSC1790173230: {Status: Case Was Received}
+- YSC1790173231: {Status: Case Was Received}
+- YSC1790173232: {Status: Case Was Received}
+- YSC1790173233: {Status: Case Was Received}
+- YSC1790173234: {Status: Case Was Received}
+- YSC1790173235: {Status: Case Was Received}
+- YSC1790173236: {Status: Case Was Received}
+- YSC1790173237: {Status: Case Was Received}
+- YSC1790173238: {Status: Case Was Received}
+- YSC1790173239: {Status: Case Was Received}
+- YSC1790173240: {Status: Case Was Received}
+- YSC1790173241: {Status: Case Was Received}
+- YSC1790173242: {Status: Fees Were Waived}
+- YSC1790173243: {Status: Card Was Mailed To Me}
+- YSC1790173244: {Status: Card Was Mailed To Me}
+- YSC1790173245: {Status: Card Was Mailed To Me}
+- YSC1790173246: {Status: Card Was Mailed To Me}
+- YSC1790173247: {Status: Card Was Mailed To Me}
+- YSC1790173248: {Status: Card Was Mailed To Me}
+- YSC1790173249: {Status: Card Was Mailed To Me}
+- YSC1790173875: {Status: Case Was Received}
+- YSC1790173876: {Status: Card Was Mailed To Me}
+- YSC1790173877: {Status: Card Was Mailed To Me}
+- YSC1790173878: {Status: Case Was Received}
+- YSC1790173879: {Status: New Card Is Being Produced}
+- YSC1790173880: {Status: Case Was Received}
+- YSC1790173881: {Status: Case Was Received}
+- YSC1790173882: {Status: Case Was Received}
+- YSC1790173883: {Status: Case Was Received}
+- YSC1790173884: {Status: Case Was Received}
+- YSC1790173885: {Status: Case Was Received}
+- YSC1790173886: {Status: Card Was Mailed To Me}
+- YSC1790173887: {Status: Case Was Received}
+- YSC1790173888: {Status: Case Was Received}
+- YSC1790173889: {Status: Case Was Received}
+- YSC1790173890: {Status: Card Was Mailed To Me}
+- YSC1790173891: {Status: Case Was Received}
+- YSC1790173892: {Status: Case Was Received}
+- YSC1790173893: {Status: New Card Is Being Produced}
+- YSC1790173894: {Status: Card Was Mailed To Me}
+- YSC1790173895: {Status: Case Was Received}
+- YSC1790173896: {Status: Case Was Received}
+- YSC1790173897: {Status: Card Was Mailed To Me}
+- YSC1790173898: {Status: Case Was Received}
+- YSC1790173899: {Status: Case Was Received}
+- YSC1790173900: {Status: Card Was Mailed To Me}
+- YSC1790173901: {Status: Card Was Mailed To Me}
+- YSC1790173902: {Status: Case Was Received}
+- YSC1790173903: {Status: New Card Is Being Produced}
+- YSC1790173904: {Status: New Card Is Being Produced}
+- YSC1790173905: {Status: Case Was Received}
+- YSC1790173906: {Status: Case Was Received}
+- YSC1790173907: {Status: New Card Is Being Produced}
+- YSC1790173908: {Status: Request for Initial Evidence Was Mailed}
+- YSC1790173909: {Status: New Card Is Being Produced}
+- YSC1790173910: {Status: Case Was Received}
+- YSC1790173911: {Status: Case Was Received}
+- YSC1790173912: {Status: Case Was Received}
+- YSC1790173913: {Status: Card Was Mailed To Me}
+- YSC1790173914: {Status: New Card Is Being Produced}
+- YSC1790173915: {Status: Card Was Mailed To Me}
+- YSC1790173916: {Status: Case Was Received}
+- YSC1790173917: {Status: Case Was Received}
+- YSC1790173918: {Status: Case Was Received}
+- YSC1790173919: {Status: New Card Is Being Produced}
+- YSC1790173920: {Status: Case Was Received}
+- YSC1790173921: {Status: Case Was Received}
+- YSC1790173922: {Status: Case Was Received}
+- YSC1790173923: {Status: Case Was Received}
+- YSC1790173924: {Status: Card Was Mailed To Me}
+- YSC1790173925: {Status: Case Was Received}
+- YSC1790173926: {Status: New Card Is Being Produced}
+- YSC1790173927: {Status: Card Was Mailed To Me}
+- YSC1790173928: {Status: Card Was Mailed To Me}
+- YSC1790173929: {Status: New Card Is Being Produced}
+- YSC1790173930: {Status: New Card Is Being Produced}
+- YSC1790173931: {Status: Card Was Mailed To Me}
+- YSC1790173932: {Status: Card Was Mailed To Me}
+- YSC1790173933: {Status: New Card Is Being Produced}
+- YSC1790173934: {Status: Card Was Mailed To Me}
+- YSC1790173935: {Status: Card Was Mailed To Me}
+- YSC1790173936: {Status: New Card Is Being Produced}
+- YSC1790173937: {Status: Card Was Mailed To Me}
+- YSC1790173938: {Status: Case Was Received}
+- YSC1790173939: {Status: Card Was Mailed To Me}
+- YSC1790173940: {Status: Card Was Mailed To Me}
+- YSC1790173941: {Status: Decision Notice Mailed}
+- YSC1790173942: {Status: Card Was Mailed To Me}
+- YSC1790173943: {Status: Case Was Received}
+- YSC1790173944: {Status: Case Was Received}
+- YSC1790173945: {Status: Case Was Received}
+- YSC1790173946: {Status: Card Was Mailed To Me}
+- YSC1790173947: {Status: Case Was Received}
+- YSC1790173948: {Status: Case Was Received}
+- YSC1790173949: {Status: Case Was Received}
+- YSC1790173950: {Status: Case Was Received}
+- YSC1790173951: {Status: Case Was Received}
+- YSC1790173952: {Status: Case Was Received}
+- YSC1790173953: {Status: Case Was Received}
+- YSC1790173954: {Status: Card Was Mailed To Me}
+- YSC1790173955: {Status: Card Was Mailed To Me}
+- YSC1790173956: {Status: Case Was Received}
+- YSC1790173957: {Status: Card Was Mailed To Me}
+- YSC1790173958: {Status: Case Was Received}
+- YSC1790173959: {Status: New Card Is Being Produced}
+- YSC1790173960: {Status: New Card Is Being Produced}
+- YSC1790173961: {Status: New Card Is Being Produced}
+- YSC1790173962: {Status: Case Was Received}
+- YSC1790173963: {Status: New Card Is Being Produced}
+- YSC1790173964: {Status: Case Was Received}
+- YSC1790173965: {Status: Card Was Mailed To Me}
+- YSC1790173966: {Status: Case Was Received}
+- YSC1790173967: {Status: New Card Is Being Produced}
+- YSC1790173968: {Status: Card Was Mailed To Me}
+- YSC1790173969: {Status: Case Was Received}
+- YSC1790173970: {Status: Case Was Received}
+- YSC1790173971: {Status: Case Was Received}
+- YSC1790173972: {Status: Card Was Mailed To Me}
+- YSC1790173973: {Status: Case Was Received}
+- YSC1790173974: {Status: Case Was Received}
+- YSC1790173975: {Status: Case Was Received}
+- YSC1790173976: {Status: Card Was Mailed To Me}
+- YSC1790173977: {Status: New Card Is Being Produced}
+- YSC1790173978: {Status: Case Was Received}
+- YSC1790173979: {Status: Case Was Received}
+- YSC1790173980: {Status: Case Was Received}
+- YSC1790173981: {Status: Case Was Received}
+- YSC1790173982: {Status: Case Was Received}
+- YSC1790173983: {Status: Case Was Received}
+- YSC1790173984: {Status: Case Was Received}
+- YSC1790173985: {Status: Case Was Received}
+- YSC1790173986: {Status: Card Was Mailed To Me}
+- YSC1790173987: {Status: Case Was Received}
+- YSC1790173988: {Status: Case Was Received}
+- YSC1790173989: {Status: Case Was Received}
+- YSC1790173990: {Status: Case Was Received}
+- YSC1790173991: {Status: Case Was Received}
+- YSC1790173992: {Status: Case Was Received}
+- YSC1790173993: {Status: Card Was Mailed To Me}
+- YSC1790173994: {Status: Case Was Received}
+- YSC1790173995: {Status: Case Was Received}
+- YSC1790173996: {Status: New Card Is Being Produced}
+- YSC1790173997: {Status: Case Was Received}
+- YSC1790173998: {Status: Card Was Mailed To Me}
+- YSC1790173999: {Status: Card Was Mailed To Me}
+- YSC1790173375: {Status: Case Was Rejected Because I Did Not Sign My Form}
+- YSC1790173376: {Status: Case Was Rejected Because I Did Not Sign My Form}
+- YSC1790173377: {Status: Case Was Rejected Because I Did Not Sign My Form}
+- YSC1790173378: {Status: Case Was Received}
+- YSC1790173379: {Status: Case Was Received}
+- YSC1790173380: {Status: Case Was Received}
+- YSC1790173381: {Status: Case Was Received}
+- YSC1790173382: {Status: Request for Initial Evidence Was Mailed}
+- YSC1790173383: {Status: Case Was Received}
+- YSC1790173384: {Status: Case Was Received}
+- YSC1790173385: {Status: New Card Is Being Produced}
+- YSC1790173386: {Status: Case Was Received}
+- YSC1790173387: {Status: Card Was Mailed To Me}
+- YSC1790173388: {Status: Case Was Received}
+- YSC1790173389: {Status: New Card Is Being Produced}
+- YSC1790173390: {Status: Case Was Received}
+- YSC1790173391: {Status: Card Was Mailed To Me}
+- YSC1790173392: {Status: Case Was Received}
+- YSC1790173393: {Status: Case Was Received}
+- YSC1790173394: {Status: Case Was Received}
+- YSC1790173395: {Status: Case Was Received}
+- YSC1790173396: {Status: Case Was Received}
+- YSC1790173397: {Status: Name Was Updated}
+- YSC1790173398: {Status: Case Was Received}
+- YSC1790173399: {Status: Case Was Received}
+- YSC1790173400: {Status: Card Was Mailed To Me}
+- YSC1790173401: {Status: Case Was Received}
+- YSC1790173402: {Status: Date of Birth Was Updated}
+- YSC1790173403: {Status: New Card Is Being Produced}
+- YSC1790173404: {Status: Case Was Received}
+- YSC1790173405: {Status: Card Was Mailed To Me}
+- YSC1790173406: {Status: Card Was Mailed To Me}
+- YSC1790173407: {Status: Card Was Mailed To Me}
+- YSC1790173408: {Status: Card Was Mailed To Me}
+- YSC1790173409: {Status: Card Was Mailed To Me}
+- YSC1790173410: {Status: Card Was Mailed To Me}
+- YSC1790173411: {Status: Card Was Mailed To Me}
+- YSC1790173412: {Status: Case Was Received}
+- YSC1790173413: {Status: Card Was Mailed To Me}
+- YSC1790173414: {Status: Case Was Received}
+- YSC1790173415: {Status: Case Was Received}
+- YSC1790173416: {Status: Case Was Received}
+- YSC1790173417: {Status: Case Was Received}
+- YSC1790173418: {Status: Case Was Received}
+- YSC1790173419: {Status: New Card Is Being Produced}
+- YSC1790173420: {Status: Card Was Mailed To Me}
+- YSC1790173421: {Status: New Card Is Being Produced}
+- YSC1790173422: {Status: Case Was Received}
+- YSC1790173423: {Status: Case Was Received}
+- YSC1790173424: {Status: Case Was Received}
+- YSC1790173425: {Status: Case Was Received}
+- YSC1790173426: {Status: Case Was Received}
+- YSC1790173427: {Status: Case Was Received}
+- YSC1790173428: {Status: Case Was Received}
+- YSC1790173429: {Status: Card Was Mailed To Me}
+- YSC1790173430: {Status: Case Was Received}
+- YSC1790173431: {Status: New Card Is Being Produced}
+- YSC1790173432: {Status: Case Was Received}
+- YSC1790173433: {Status: Card Was Mailed To Me}
+- YSC1790173434: {Status: Card Was Mailed To Me}
+- YSC1790173435: {Status: Card Was Mailed To Me}
+- YSC1790173436: {Status: New Card Is Being Produced}
+- YSC1790173437: {Status: Card Was Mailed To Me}
+- YSC1790173438: {Status: Request for Initial Evidence Was Mailed}
+- YSC1790173439: {Status: Request for Initial Evidence Was Mailed}
+- YSC1790173440: {Status: Card Was Mailed To Me}
+- YSC1790173441: {Status: Card Was Mailed To Me}
+- YSC1790173442: {Status: Case Was Received}
+- YSC1790173443: {Status: Case Was Received}
+- YSC1790173444: {Status: Card Was Mailed To Me}
+- YSC1790173445: {Status: Card Was Mailed To Me}
+- YSC1790173446: {Status: Case Was Received}
+- YSC1790173447: {Status: Case Was Received}
+- YSC1790173448: {Status: Case Was Received}
+- YSC1790173449: {Status: Card Was Mailed To Me}
+- YSC1790173450: {Status: Case Was Received}
+- YSC1790173451: {Status: Card Was Mailed To Me}
+- YSC1790173452: {Status: New Card Is Being Produced}
+- YSC1790173453: {Status: Card Was Mailed To Me}
+- YSC1790173454: {Status: Card Was Mailed To Me}
+- YSC1790173455: {Status: Card Was Mailed To Me}
+- YSC1790173456: {Status: New Card Is Being Produced}
+- YSC1790173457: {Status: Case Was Received}
+- YSC1790173458: {Status: New Card Is Being Produced}
+- YSC1790173459: {Status: Case Was Received}
+- YSC1790173460: {Status: New Card Is Being Produced}
+- YSC1790173461: {Status: New Card Is Being Produced}
+- YSC1790173462: {Status: Case Was Received}
+- YSC1790173463: {Status: Case Was Received}
+- YSC1790173464: {Status: Case Was Received}
+- YSC1790173465: {Status: New Card Is Being Produced}
+- YSC1790173466: {Status: Case Was Received}
+- YSC1790173467: {Status: Case Was Received}
+- YSC1790173468: {Status: Case Was Received}
+- YSC1790173469: {Status: Case Was Received}
+- YSC1790173470: {Status: Case Was Received}
+- YSC1790173471: {Status: New Card Is Being Produced}
+- YSC1790173472: {Status: New Card Is Being Produced}
+- YSC1790173473: {Status: Case Was Received}
+- YSC1790173474: {Status: Case Was Received}
+- YSC1790173475: {Status: Card Was Mailed To Me}
+- YSC1790173476: {Status: Notice Was Returned To USCIS Because The Post Office Could
+      Not Deliver It}
+- YSC1790173477: {Status: Card Was Mailed To Me}
+- YSC1790173478: {Status: Case Was Received}
+- YSC1790173479: {Status: Case Was Received}
+- YSC1790173480: {Status: Card Was Mailed To Me}
+- YSC1790173481: {Status: Request for Initial Evidence Was Mailed}
+- YSC1790173482: {Status: Card Was Mailed To Me}
+- YSC1790173483: {Status: Case Was Received}
+- YSC1790173484: {Status: Case Was Received}
+- YSC1790173485: {Status: Case Was Received}
+- YSC1790173486: {Status: Case Was Received}
+- YSC1790173487: {Status: Case Was Received}
+- YSC1790173488: {Status: Case Was Received}
+- YSC1790173489: {Status: Card Was Mailed To Me}
+- YSC1790173490: {Status: Case Was Received}
+- YSC1790173491: {Status: Case Was Received}
+- YSC1790173492: {Status: Card Was Mailed To Me}
+- YSC1790173493: {Status: Case Was Received}
+- YSC1790173494: {Status: Case Was Received}
+- YSC1790173495: {Status: Case Was Received}
+- YSC1790173496: {Status: Case Was Received}
+- YSC1790173497: {Status: Case Was Received}
+- YSC1790173498: {Status: Case Was Received}
+- YSC1790173499: {Status: Case Was Received}
+- YSC1790173500: {Status: Case Was Received}
+- YSC1790173501: {Status: Case Was Received}
+- YSC1790173502: {Status: Case Was Received}
+- YSC1790173503: {Status: Case Was Received}
+- YSC1790173504: {Status: Card Was Mailed To Me}
+- YSC1790173505: {Status: Card Was Mailed To Me}
+- YSC1790173506: {Status: New Card Is Being Produced}
+- YSC1790173507: {Status: New Card Is Being Produced}
+- YSC1790173508: {Status: Card Was Mailed To Me}
+- YSC1790173509: {Status: Case Was Received}
+- YSC1790173510: {Status: Case Was Received}
+- YSC1790173511: {Status: Case Was Received}
+- YSC1790173512: {Status: New Card Is Being Produced}
+- YSC1790173513: {Status: Card Was Mailed To Me}
+- YSC1790173514: {Status: Case Was Received}
+- YSC1790173515: {Status: Case Was Received}
+- YSC1790173516: {Status: Case Was Received}
+- YSC1790173517: {Status: New Card Is Being Produced}
+- YSC1790173518: {Status: New Card Is Being Produced}
+- YSC1790173519: {Status: Case Was Received}
+- YSC1790173520: {Status: Case Was Received}
+- YSC1790173521: {Status: Card Was Mailed To Me}
+- YSC1790173522: {Status: Case Was Received}
+- YSC1790173523: {Status: New Card Is Being Produced}
+- YSC1790173524: {Status: Case Was Received}
+- YSC1790173525: {Status: New Card Is Being Produced}
+- YSC1790173526: {Status: Case Was Received}
+- YSC1790173527: {Status: Name Was Updated}
+- YSC1790173528: {Status: Card Was Mailed To Me}
+- YSC1790173529: {Status: Case Was Received}
+- YSC1790173530: {Status: Case Was Received}
+- YSC1790173531: {Status: Case Was Received}
+- YSC1790173532: {Status: Card Was Mailed To Me}
+- YSC1790173533: {Status: Card Was Mailed To Me}
+- YSC1790173534: {Status: New Card Is Being Produced}
+- YSC1790173535: {Status: Card Was Mailed To Me}
+- YSC1790173536: {Status: Card Was Mailed To Me}
+- YSC1790173537: {Status: Case Was Received}
+- YSC1790173538: {Status: New Card Is Being Produced}
+- YSC1790173539: {Status: Card Was Mailed To Me}
+- YSC1790173540: {Status: Case Was Received}
+- YSC1790173541: {Status: Card Was Mailed To Me}
+- YSC1790173542: {Status: Card Was Mailed To Me}
+- YSC1790173543: {Status: Case Was Received}
+- YSC1790173544: {Status: New Card Is Being Produced}
+- YSC1790173545: {Status: Card Was Mailed To Me}
+- YSC1790173546: {Status: Card Was Mailed To Me}
+- YSC1790173547: {Status: Card Was Mailed To Me}
+- YSC1790173548: {Status: Case Was Received}
+- YSC1790173549: {Status: Card Was Mailed To Me}
+- YSC1790173550: {Status: Notice Was Returned To USCIS Because The Post Office Could
+      Not Deliver It}
+- YSC1790173551: {Status: Card Was Mailed To Me}
+- YSC1790173552: {Status: Card Was Mailed To Me}
+- YSC1790173553: {Status: Case Was Received}
+- YSC1790173554: {Status: New Card Is Being Produced}
+- YSC1790173555: {Status: New Card Is Being Produced}
+- YSC1790173556: {Status: Card Was Mailed To Me}
+- YSC1790173557: {Status: New Card Is Being Produced}
+- YSC1790173558: {Status: Card Was Mailed To Me}
+- YSC1790173559: {Status: Case Was Received}
+- YSC1790173560: {Status: Card Was Mailed To Me}
+- YSC1790173561: {Status: Case Was Received}
+- YSC1790173562: {Status: Case Was Received}
+- YSC1790173563: {Status: New Card Is Being Produced}
+- YSC1790173564: {Status: Card Was Mailed To Me}
+- YSC1790173565: {Status: Case Was Received}
+- YSC1790173566: {Status: Case Was Received}
+- YSC1790173567: {Status: Case Was Received}
+- YSC1790173568: {Status: Case Was Received}
+- YSC1790173569: {Status: New Card Is Being Produced}
+- YSC1790173570: {Status: Case Was Received}
+- YSC1790173571: {Status: Card Was Mailed To Me}
+- YSC1790173572: {Status: Case Was Received}
+- YSC1790173573: {Status: New Card Is Being Produced}
+- YSC1790173574: {Status: Case Was Received}
+- YSC1790173575: {Status: Case Was Received}
+- YSC1790173576: {Status: Card Was Mailed To Me}
+- YSC1790173577: {Status: Case Was Received}
+- YSC1790173578: {Status: Case Was Received}
+- YSC1790173579: {Status: Card Was Mailed To Me}
+- YSC1790173580: {Status: Case Was Received}
+- YSC1790173581: {Status: Case Was Received}
+- YSC1790173582: {Status: Case Was Received}
+- YSC1790173583: {Status: Case Was Received}
+- YSC1790173584: {Status: Case Was Received}
+- YSC1790173585: {Status: Card Was Mailed To Me}
+- YSC1790173586: {Status: New Card Is Being Produced}
+- YSC1790173587: {Status: New Card Is Being Produced}
+- YSC1790173588: {Status: Case Was Received}
+- YSC1790173589: {Status: Case Was Received}
+- YSC1790173590: {Status: Notice Was Returned To USCIS Because The Post Office Could
+      Not Deliver It}
+- YSC1790173591: {Status: Case Was Received}
+- YSC1790173592: {Status: Card Was Mailed To Me}
+- YSC1790173593: {Status: Case Was Received}
+- YSC1790173594: {Status: Case Was Received}
+- YSC1790173595: {Status: Card Was Mailed To Me}
+- YSC1790173596: {Status: Case Was Received}
+- YSC1790173597: {Status: Case Was Received}
+- YSC1790173598: {Status: Card Was Mailed To Me}
+- YSC1790173599: {Status: Card Was Mailed To Me}
+- YSC1790173600: {Status: Card Was Mailed To Me}
+- YSC1790173601: {Status: Card Was Mailed To Me}
+- YSC1790173602: {Status: Case Was Received}
+- YSC1790173603: {Status: Card Was Mailed To Me}
+- YSC1790173604: {Status: Card Was Mailed To Me}
+- YSC1790173605: {Status: Card Was Mailed To Me}
+- YSC1790173606: {Status: Case Was Received}
+- YSC1790173607: {Status: Card Was Mailed To Me}
+- YSC1790173608: {Status: Case Was Received}
+- YSC1790173609: {Status: Card Was Mailed To Me}
+- YSC1790173610: {Status: Case Was Received}
+- YSC1790173611: {Status: Case Was Received}
+- YSC1790173612: {Status: Case Was Received}
+- YSC1790173613: {Status: New Card Is Being Produced}
+- YSC1790173614: {Status: Case Was Received}
+- YSC1790173615: {Status: Case Was Received}
+- YSC1790173616: {Status: Case Was Received}
+- YSC1790173617: {Status: New Card Is Being Produced}
+- YSC1790173618: {Status: Case Was Received}
+- YSC1790173619: {Status: Case Was Received}
+- YSC1790173620: {Status: Card Was Mailed To Me}
+- YSC1790173621: {Status: New Card Is Being Produced}
+- YSC1790173622: {Status: Case Was Received}
+- YSC1790173623: {Status: Case Was Received}
+- YSC1790173624: {Status: Case Was Received}
+- YSC1790173625: {Status: Card Was Mailed To Me}
+- YSC1790173626: {Status: Card Was Mailed To Me}
+- YSC1790173627: {Status: Case Was Received}
+- YSC1790173628: {Status: Case Was Received}
+- YSC1790173629: {Status: Case Was Received}
+- YSC1790173630: {Status: Card Was Mailed To Me}
+- YSC1790173631: {Status: Case Was Received}
+- YSC1790173632: {Status: Card Was Mailed To Me}
+- YSC1790173633: {Status: New Card Is Being Produced}
+- YSC1790173634: {Status: New Card Is Being Produced}
+- YSC1790173635: {Status: Card Was Mailed To Me}
+- YSC1790173636: {Status: Card Was Mailed To Me}
+- YSC1790173637: {Status: Card Was Mailed To Me}
+- YSC1790173638: {Status: New Card Is Being Produced}
+- YSC1790173639: {Status: New Card Is Being Produced}
+- YSC1790173640: {Status: Card Was Mailed To Me}
+- YSC1790173641: {Status: Card Was Mailed To Me}
+- YSC1790173642: {Status: Card Was Mailed To Me}
+- YSC1790173643: {Status: Card Was Mailed To Me}
+- YSC1790173644: {Status: Case Was Received}
+- YSC1790173645: {Status: Case Was Received}
+- YSC1790173646: {Status: Case Was Received}
+- YSC1790173647: {Status: Case Was Received}
+- YSC1790173648: {Status: New Card Is Being Produced}
+- YSC1790173649: {Status: Case Was Received}
+- YSC1790173650: {Status: New Card Is Being Produced}
+- YSC1790173651: {Status: Decision Notice Mailed}
+- YSC1790173652: {Status: Card Was Mailed To Me}
+- YSC1790173653: {Status: Name Was Updated}
+- YSC1790173654: {Status: Card Was Mailed To Me}
+- YSC1790173655: {Status: Card Was Mailed To Me}
+- YSC1790173656: {Status: Card Was Mailed To Me}
+- YSC1790173657: {Status: Card Was Mailed To Me}
+- YSC1790173658: {Status: Case Was Received}
+- YSC1790173659: {Status: New Card Is Being Produced}
+- YSC1790173660: {Status: Case Was Received}
+- YSC1790173661: {Status: New Card Is Being Produced}
+- YSC1790173662: {Status: Case Was Received}
+- YSC1790173663: {Status: Case Was Received}
+- YSC1790173664: {Status: Case Was Received}
+- YSC1790173665: {Status: Case Was Received}
+- YSC1790173666: {Status: Card Was Mailed To Me}
+- YSC1790173667: {Status: Case Was Received}
+- YSC1790173668: {Status: Card Was Mailed To Me}
+- YSC1790173669: {Status: Card Was Mailed To Me}
+- YSC1790173670: {Status: Card Was Mailed To Me}
+- YSC1790173671: {Status: Card Was Mailed To Me}
+- YSC1790173672: {Status: Card Was Mailed To Me}
+- YSC1790173673: {Status: Case Was Received}
+- YSC1790173674: {Status: Case Was Received}
+- YSC1790173675: {Status: Case Was Received}
+- YSC1790173676: {Status: Card Was Mailed To Me}
+- YSC1790173677: {Status: Case Was Received}
+- YSC1790173678: {Status: Card Was Mailed To Me}
+- YSC1790173679: {Status: Card Was Mailed To Me}
+- YSC1790173680: {Status: Card Was Mailed To Me}
+- YSC1790173681: {Status: Case Was Received}
+- YSC1790173682: {Status: Card Was Mailed To Me}
+- YSC1790173683: {Status: Case Was Received}
+- YSC1790173684: {Status: Card Was Mailed To Me}
+- YSC1790173685: {Status: New Card Is Being Produced}
+- YSC1790173686: {Status: Card Was Mailed To Me}
+- YSC1790173687: {Status: Name Was Updated}
+- YSC1790173688: {Status: Card Was Mailed To Me}
+- YSC1790173689: {Status: New Card Is Being Produced}
+- YSC1790173690: {Status: Card Was Mailed To Me}
+- YSC1790173691: {Status: Card Was Mailed To Me}
+- YSC1790173692: {Status: New Card Is Being Produced}
+- YSC1790173693: {Status: Case Was Received}
+- YSC1790173694: {Status: Case Was Received}
+- YSC1790173695: {Status: New Card Is Being Produced}
+- YSC1790173696: {Status: New Card Is Being Produced}
+- YSC1790173697: {Status: New Card Is Being Produced}
+- YSC1790173698: {Status: Card Was Mailed To Me}
+- YSC1790173699: {Status: New Card Is Being Produced}
+- YSC1790173700: {Status: Case Was Received}
+- YSC1790173701: {Status: Card Was Mailed To Me}
+- YSC1790173702: {Status: Card Was Mailed To Me}
+- YSC1790173703: {Status: Card Was Mailed To Me}
+- YSC1790173704: {Status: Case Was Received}
+- YSC1790173705: {Status: Case Was Received}
+- YSC1790173706: {Status: New Card Is Being Produced}
+- YSC1790173707: {Status: Card Was Mailed To Me}
+- YSC1790173708: {Status: Case Was Received}
+- YSC1790173709: {Status: Case Was Received}
+- YSC1790173710: {Status: New Card Is Being Produced}
+- YSC1790173711: {Status: Case Was Received}
+- YSC1790173712: {Status: New Card Is Being Produced}
+- YSC1790173713: {Status: Case Was Received}
+- YSC1790173714: {Status: Request for Initial Evidence Was Mailed}
+- YSC1790173715: {Status: Case Was Received}
+- YSC1790173716: {Status: Case Was Received}
+- YSC1790173717: {Status: Case Was Received}
+- YSC1790173718: {Status: Case Was Received}
+- YSC1790173719: {Status: New Card Is Being Produced}
+- YSC1790173720: {Status: Case Was Received}
+- YSC1790173721: {Status: New Card Is Being Produced}
+- YSC1790173722: {Status: Case Was Received}
+- YSC1790173723: {Status: Case Was Received}
+- YSC1790173724: {Status: Case Was Received}
+- YSC1790173725: {Status: Case Was Received}
+- YSC1790173726: {Status: Case Was Received}
+- YSC1790173727: {Status: Case Was Received}
+- YSC1790173728: {Status: Case Was Received}
+- YSC1790173729: {Status: Card Was Mailed To Me}
+- YSC1790173730: {Status: Case Was Received}
+- YSC1790173731: {Status: Card Was Mailed To Me}
+- YSC1790173732: {Status: Case Was Received}
+- YSC1790173733: {Status: Card Was Mailed To Me}
+- YSC1790173734: {Status: Case Was Received}
+- YSC1790173735: {Status: Card Was Mailed To Me}
+- YSC1790173736: {Status: Case Was Received}
+- YSC1790173737: {Status: Case Was Received}
+- YSC1790173738: {Status: Case Was Received}
+- YSC1790173739: {Status: Case Was Received}
+- YSC1790173740: {Status: Card Was Mailed To Me}
+- YSC1790173741: {Status: Case Was Received}
+- YSC1790173742: {Status: Case Was Received}
+- YSC1790173743: {Status: New Card Is Being Produced}
+- YSC1790173744: {Status: Case Was Received}
+- YSC1790173745: {Status: Card Was Mailed To Me}
+- YSC1790173746: {Status: Card Was Mailed To Me}
+- YSC1790173747: {Status: Case Was Received}
+- YSC1790173748: {Status: Case Was Received}
+- YSC1790173749: {Status: Card Was Mailed To Me}
+- YSC1790173750: {Status: Case Was Received}
+- YSC1790173751: {Status: Case Was Received}
+- YSC1790173752: {Status: Case Was Received}
+- YSC1790173753: {Status: Case Was Received}
+- YSC1790173754: {Status: Case Was Received}
+- YSC1790173755: {Status: New Card Is Being Produced}
+- YSC1790173756: {Status: Case Was Received}
+- YSC1790173757: {Status: Case Was Received}
+- YSC1790173758: {Status: Case Was Received}
+- YSC1790173759: {Status: Card Was Mailed To Me}
+- YSC1790173760: {Status: Card Was Mailed To Me}
+- YSC1790173761: {Status: Case Was Received}
+- YSC1790173762: {Status: Card Was Mailed To Me}
+- YSC1790173763: {Status: Case Was Received}
+- YSC1790173764: {Status: New Card Is Being Produced}
+- YSC1790173765: {Status: Card Was Mailed To Me}
+- YSC1790173766: {Status: Card Was Mailed To Me}
+- YSC1790173767: {Status: Card Was Mailed To Me}
+- YSC1790173768: {Status: Card Was Mailed To Me}
+- YSC1790173769: {Status: Decision Notice Mailed}
+- YSC1790173770: {Status: Correspondence Was Received And USCIS Is Reviewing It}
+- YSC1790173771: {Status: Card Was Mailed To Me}
+- YSC1790173772: {Status: Case Was Received}
+- YSC1790173773: {Status: Card Was Mailed To Me}
+- YSC1790173774: {Status: Case Was Received}
+- YSC1790173775: {Status: Card Was Mailed To Me}
+- YSC1790173776: {Status: Case Was Received}
+- YSC1790173777: {Status: Case Was Received}
+- YSC1790173778: {Status: Case Was Received}
+- YSC1790173779: {Status: Case Was Received}
+- YSC1790173780: {Status: Case Was Received}
+- YSC1790173781: {Status: Case Was Received}
+- YSC1790173782: {Status: Case Was Received}
+- YSC1790173783: {Status: Case Was Received}
+- YSC1790173784: {Status: Case Was Received}
+- YSC1790173785: {Status: Card Was Mailed To Me}
+- YSC1790173786: {Status: New Card Is Being Produced}
+- YSC1790173787: {Status: Card Was Mailed To Me}
+- YSC1790173788: {Status: Notice Was Returned To USCIS Because The Post Office Could
+      Not Deliver It}
+- YSC1790173789: {Status: Card Was Mailed To Me}
+- YSC1790173790: {Status: Case Was Received}
+- YSC1790173791: {Status: Case Was Received}
+- YSC1790173792: {Status: Request for Initial Evidence Was Mailed}
+- YSC1790173793: {Status: Card Was Mailed To Me}
+- YSC1790173794: {Status: Case Was Received}
+- YSC1790173795: {Status: Case Was Received}
+- YSC1790173796: {Status: Case Was Received}
+- YSC1790173797: {Status: Case Was Received}
+- YSC1790173798: {Status: New Card Is Being Produced}
+- YSC1790173799: {Status: Case Was Received}
+- YSC1790173800: {Status: Case Was Received}
+- YSC1790173801: {Status: Card Was Mailed To Me}
+- YSC1790173802: {Status: Case Was Received}
+- YSC1790173803: {Status: Case Was Received}
+- YSC1790173804: {Status: Card Was Mailed To Me}
+- YSC1790173805: {Status: Card Was Mailed To Me}
+- YSC1790173806: {Status: Card Was Mailed To Me}
+- YSC1790173807: {Status: Card Was Mailed To Me}
+- YSC1790173808: {Status: Case Was Received}
+- YSC1790173809: {Status: Card Was Mailed To Me}
+- YSC1790173810: {Status: Card Was Mailed To Me}
+- YSC1790173811: {Status: Card Was Mailed To Me}
+- YSC1790173812: {Status: Card Was Mailed To Me}
+- YSC1790173813: {Status: Card Was Mailed To Me}
+- YSC1790173814: {Status: Case Was Received}
+- YSC1790173815: {Status: Case Was Received}
+- YSC1790173816: {Status: Case Was Received}
+- YSC1790173817: {Status: Card Was Mailed To Me}
+- YSC1790173818: {Status: Case Was Received}
+- YSC1790173819: {Status: Case Was Received}
+- YSC1790173820: {Status: Card Was Mailed To Me}
+- YSC1790173821: {Status: Case Was Received}
+- YSC1790173822: {Status: Case Was Received}
+- YSC1790173823: {Status: Case Was Received}
+- YSC1790173824: {Status: New Card Is Being Produced}
+- YSC1790173825: {Status: Case Was Received}
+- YSC1790173826: {Status: Case Was Received}
+- YSC1790173827: {Status: Card Was Mailed To Me}
+- YSC1790173828: {Status: Case Was Received}
+- YSC1790173829: {Status: Case Was Received}
+- YSC1790173830: {Status: New Card Is Being Produced}
+- YSC1790173831: {Status: Case Was Received}
+- YSC1790173832: {Status: Case Was Received}
+- YSC1790173833: {Status: Card Was Mailed To Me}
+- YSC1790173834: {Status: Case Was Received}
+- YSC1790173835: {Status: Card Was Mailed To Me}
+- YSC1790173836: {Status: Case Was Received}
+- YSC1790173837: {Status: Case Was Received}
+- YSC1790173838: {Status: Case Was Received}
+- YSC1790173839: {Status: Case Was Received}
+- YSC1790173840: {Status: Case Was Received}
+- YSC1790173841: {Status: Case Was Received}
+- YSC1790173842: {Status: Case Was Received}
+- YSC1790173843: {Status: Case Was Received}
+- YSC1790173844: {Status: Card Was Mailed To Me}
+- YSC1790173845: {Status: Case Was Received}
+- YSC1790173846: {Status: Notice Was Returned To USCIS Because The Post Office Could
+      Not Deliver It}
+- YSC1790173847: {Status: Case Was Received}
+- YSC1790173848: {Status: Case Was Received}
+- YSC1790173849: {Status: Case Was Received}
+- YSC1790173850: {Status: New Card Is Being Produced}
+- YSC1790173851: {Status: Case Was Received}
+- YSC1790173852: {Status: New Card Is Being Produced}
+- YSC1790173853: {Status: Notice Was Returned To USCIS Because The Post Office Could
+      Not Deliver It}
+- YSC1790173854: {Status: Card Was Mailed To Me}
+- YSC1790173855: {Status: Case Was Received}
+- YSC1790173856: {Status: Case Was Received}
+- YSC1790173857: {Status: Case Was Received}
+- YSC1790173858: {Status: Case Was Received}
+- YSC1790173859: {Status: Case Was Received}
+- YSC1790173860: {Status: Card Was Mailed To Me}
+- YSC1790173861: {Status: Case Was Received}
+- YSC1790173862: {Status: Case Was Received}
+- YSC1790173863: {Status: Case Was Received}
+- YSC1790173864: {Status: Case Was Received}
+- YSC1790173865: {Status: Case Was Received}
+- YSC1790173866: {Status: Case Was Received}
+- YSC1790173867: {Status: Case Was Received}
+- YSC1790173868: {Status: New Card Is Being Produced}
+- YSC1790173869: {Status: Withdrawal Acknowledgement Notice Was Sent}
+- YSC1790173870: {Status: Case Was Received}
+- YSC1790173871: {Status: New Card Is Being Produced}
+- YSC1790173872: {Status: Case Was Received}
+- YSC1790173873: {Status: Case Was Received}
+- YSC1790173874: {Status: Case Was Received}
+- YSC1790173250: {Status: Card Was Mailed To Me}
+- YSC1790173251: {Status: Case Was Received}
+- YSC1790173252: {Status: Card Was Mailed To Me}
+- YSC1790173253: {Status: Card Was Mailed To Me}
+- YSC1790173254: {Status: Card Was Mailed To Me}
+- YSC1790173255: {Status: Card Was Mailed To Me}
+- YSC1790173256: {Status: Card Was Mailed To Me}
+- YSC1790173257: {Status: Case Was Received}
+- YSC1790173258: {Status: Case Was Received}
+- YSC1790173259: {Status: Case Was Received}
+- YSC1790173260: {Status: Card Was Mailed To Me}
+- YSC1790173261: {Status: Card Was Mailed To Me}
+- YSC1790173262: {Status: Card Was Mailed To Me}
+- YSC1790173263: {Status: Case Was Received}
+- YSC1790173264: {Status: Case Was Received}
+- YSC1790173265: {Status: Case Was Received}
+- YSC1790173266: {Status: Case Was Received}
+- YSC1790173267: {Status: Case Was Received}
+- YSC1790173268: {Status: Case Was Received}
+- YSC1790173269: {Status: Case Was Received}
+- YSC1790173270: {Status: Case Was Received}
+- YSC1790173271: {Status: Card Was Mailed To Me}
+- YSC1790173272: {Status: Case Was Received}
+- YSC1790173273: {Status: Card Was Mailed To Me}
+- YSC1790173274: {Status: Case Was Received}
+- YSC1790173275: {Status: Case Rejected Because I Sent An Incorrect Fee}
+- YSC1790173276: {Status: Case Rejected Because I Sent An Incorrect Fee}
+- YSC1790173277: {Status: Card Was Mailed To Me}
+- YSC1790173278: {Status: Case Was Received}
+- YSC1790173279: {Status: Case Was Received}
+- YSC1790173280: {Status: Notice Was Returned To USCIS Because The Post Office Could
+      Not Deliver It}
+- YSC1790173281: {Status: Case Was Received}
+- YSC1790173282: {Status: Case Was Received}
+- YSC1790173283: {Status: Case Was Received}
+- YSC1790173284: {Status: Case Was Received}
+- YSC1790173285: {Status: Case Was Received}
+- YSC1790173286: {Status: Case Was Received}
+- YSC1790173287: {Status: Case Was Received}
+- YSC1790173288: {Status: Case Was Received}
+- YSC1790173289: {Status: Case Was Received}
+- YSC1790173290: {Status: Case Was Received}
+- YSC1790173291: {Status: Case Was Received}
+- YSC1790173292: {Status: Case Was Received}
+- YSC1790173293: {Status: Case Was Received}
+- YSC1790173294: {Status: Case Was Received}
+- YSC1790173295: {Status: Case Was Received}
+- YSC1790173296: {Status: Case Was Received}
+- YSC1790173297: {Status: Notice Was Returned To USCIS Because The Post Office Could
+      Not Deliver It}
+- YSC1790173298: {Status: Card Was Mailed To Me}
+- YSC1790173299: {Status: Card Was Mailed To Me}
+- YSC1790173300: {Status: Case Was Received}
+- YSC1790173301: {Status: Card Was Mailed To Me}
+- YSC1790173302: {Status: Case Was Received}
+- YSC1790173303: {Status: Case Was Received}
+- YSC1790173304: {Status: Case Was Received}
+- YSC1790173305: {Status: Case Was Received}
+- YSC1790173306: {Status: Case Was Received}
+- YSC1790173307: {Status: Card Was Mailed To Me}
+- YSC1790173308: {Status: Case Was Received}
+- YSC1790173309: {Status: Case Was Received}
+- YSC1790173310: {Status: Case Was Received}
+- YSC1790173311: {Status: Case Was Received}
+- YSC1790173312: {Status: Case Was Received}
+- YSC1790173313: {Status: Case Was Received}
+- YSC1790173314: {Status: Case Was Received}
+- YSC1790173315: {Status: Card Was Mailed To Me}
+- YSC1790173316: {Status: Card Was Mailed To Me}
+- YSC1790173317: {Status: Notice Was Returned To USCIS Because The Post Office Could
+      Not Deliver It}
+- YSC1790173318: {Status: New Card Is Being Produced}
+- YSC1790173319: {Status: Card Was Mailed To Me}
+- YSC1790173320: {Status: Card Was Mailed To Me}
+- YSC1790173321: {Status: Case Was Received}
+- YSC1790173322: {Status: New Card Is Being Produced}
+- YSC1790173323: {Status: New Card Is Being Produced}
+- YSC1790173324: {Status: Case Was Received}
+- YSC1790173325: {Status: Case Was Received}
+- YSC1790173326: {Status: Case Was Received}
+- YSC1790173327: {Status: Case Was Received}
+- YSC1790173328: {Status: Case Was Received}
+- YSC1790173329: {Status: New Card Is Being Produced}
+- YSC1790173330: {Status: Case Was Received}
+- YSC1790173331: {Status: Case Was Received}
+- YSC1790173332: {Status: Correspondence Was Received And USCIS Is Reviewing It}
+- YSC1790173333: {Status: Case Was Received}
+- YSC1790173334: {Status: Case Was Received}
+- YSC1790173335: {Status: Case Was Received}
+- YSC1790173336: {Status: Case Was Received}
+- YSC1790173337: {Status: Case Was Received}
+- YSC1790173338: {Status: Case Was Received}
+- YSC1790173339: {Status: Case Was Received}
+- YSC1790173340: {Status: Case Was Received}
+- YSC1790173341: {Status: Case Was Received}
+- YSC1790173342: {Status: Case Was Received}
+- YSC1790173343: {Status: Case Was Received}
+- YSC1790173344: {Status: Case Was Received}
+- YSC1790173345: {Status: Case Was Received}
+- YSC1790173346: {Status: Case Was Received}
+- YSC1790173347: {Status: Case Was Received}
+- YSC1790173348: {Status: Case Was Received}
+- YSC1790173349: {Status: Case Was Received}
+- YSC1790173350: {Status: Case Was Received}
+- YSC1790173351: {Status: Case Was Received}
+- YSC1790173352: {Status: Case Was Received}
+- YSC1790173353: {Status: Case Was Received}
+- YSC1790173354: {Status: Case Was Received}
+- YSC1790173355: {Status: Case Was Received}
+- YSC1790173356: {Status: Case Was Received}
+- YSC1790173357: {Status: Case Was Received}
+- YSC1790173358: {Status: Case Was Received}
+- YSC1790173359: {Status: Case Was Received}
+- YSC1790173360: {Status: Correspondence Was Received And USCIS Is Reviewing It}
+- YSC1790173361: {Status: Case Was Received}
+- YSC1790173362: {Status: Case Was Received}
+- YSC1790173363: {Status: Case Was Received}
+- YSC1790173364: {Status: Case Was Received}
+- YSC1790173365: {Status: Case Was Received}
+- YSC1790173366: {Status: Case Was Received}
+- YSC1790173367: {Status: Case Was Received}
+- YSC1790173368: {Status: Case Was Received}
+- YSC1790173369: {Status: Case Was Received}
+- YSC1790173370: {Status: Case Was Received}
+- YSC1790173371: {Status: Case Was Received}
+- YSC1790173372: {Status: Case Was Received}
+- YSC1790173373: {Status: Case Was Received}
+- YSC1790173374: {Status: Case Was Received}
